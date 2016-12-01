@@ -25,16 +25,16 @@ The following is a list of what I wanted from a packaging solution.
 * [x] Use tox to test to make testing against many environments easier and
 to test the package created by setup.py
 * [x] Run tests that hit the database
-* [] Test views
-* [] Test management commands
+* [ ] Test views
+* [x] Test management commands
 * [x] Run tests for one environment at a time (e.g. Python 2.7 with Django 1.8)
 * [x] be able to run one test at a time
-* [] Create a virtualenv with tox, detox and setuptools so that the versions
+* [ ] Create a virtualenv with tox, detox and setuptools so that the versions
 don't have to match the system ones
 * [x] Run tests for legacy versions of Django
 * coverage
-* [] dev environment for running tests quickly during development
-* [] a virtual environment that wraps tox so I don't have to rely on system
+* [ ] dev environment for running tests quickly during development
+* [ ] a virtual environment that wraps tox so I don't have to rely on system
 version for tox, detox and setuptools.
 
 The first two points suggest that keeping the tests in
