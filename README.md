@@ -32,7 +32,7 @@ to test the package created by setup.py
 * [ ] Create a virtualenv with tox, detox and setuptools so that the versions
 don't have to match the system ones
 * [x] Run tests for legacy versions of Django
-* [ ]coverage
+* [ ] coverage
 * [ ] dev environment for running tests quickly during development
 * [ ] a virtual environment that wraps tox so I don't have to rely on system
 version for tox, detox and setuptools.
