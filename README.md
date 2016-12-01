@@ -1,6 +1,6 @@
 # An example of a reusable Django package
 I've seen a number of ways of structuring Django packages and wanted
-to work which I thought suited me best.
+to work out which I thought suited me best.
 
 ## How to use this package
 Run all tests,
