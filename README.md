@@ -22,8 +22,8 @@ tox -e py27-django18 tests.test_models
 The following is a list of what I wanted from a packaging solution.
 
 * [x] Not include tests in package that gets installed by users
-* [x] Use tox to test to make testing against many environments easier and
-to test the package created by setup.py
+* [x] Test against mulitple versions of Django - tox
+* [x] Test packaging (setup.py, MANIFEST ..) - tox
 * [x] Run tests that hit the database
 * [ ] Test views
 * [x] Test management commands
