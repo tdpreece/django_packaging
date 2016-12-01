@@ -28,13 +28,12 @@ The following is a list of what I wanted from a packaging solution.
 * [ ] Test views
 * [x] Test management commands
 * [x] Run tests for one environment at a time (e.g. Python 2.7 with Django 1.8)
-* [x] be able to run one test at a time
-* [ ] Create a virtualenv with tox, detox and setuptools so that the versions
-don't have to match the system ones
+* [x] Be able to run one test at a time
+don't Have to match the system ones
 * [x] Run tests for legacy versions of Django
-* [ ] coverage
-* [ ] dev environment for running tests quickly during development
-* [ ] a virtual environment that wraps tox so I don't have to rely on system
+* [ ] Coverage
+* [ ] Dev environment for running tests quickly during development
+* [ ] A virtual environment that wraps tox so I don't have to rely on system
 version for tox, detox and setuptools.
 
 The first two points suggest that keeping the tests in
