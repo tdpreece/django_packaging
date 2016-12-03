@@ -25,6 +25,13 @@ detox
 tox -e coverage
 ```
 
+Run tests quickly during development,
+```
+tox -e devenv
+. devenv/bin/activate
+python manage.py test
+```
+
 ## Requirements
 The following is a list of what I wanted from a packaging solution.
 
@@ -38,7 +45,7 @@ The following is a list of what I wanted from a packaging solution.
 don't Have to match the system ones
 * [x] Run tests for legacy versions of Django
 * [x] Coverage
-* [ ] Dev environment for running tests quickly during development
+* [x] Dev environment for running tests quickly during development
 * [ ] A virtual environment that wraps tox so I don't have to rely on system
 version for tox, detox and setuptools.
 
@@ -58,6 +65,12 @@ that can be considered
 so that coverage for runs for different environments can be combined.  Thus,
 I can have a statements like `if six.PY3:`  in my code and still achieve 100%
 coverage.  See .coveragerc file.
+* Create a devev with tox.  The important thing to notice here is
+`usedevelop = True` in the tox.ini, which installs the project using
+`setup.py develop` and results in all the dependencies being installed
+in the devenv along with a `django-package-example.egg-link.egg-link`
+file that points to my Python code in `./src/`.  I activate this devenv
+and use it to run tests quickly while I'm developing.
 
 ## Gotchas
 * Took me a couple of runs to realise that I had django>=1.8,<1.10 in setup.py
