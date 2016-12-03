@@ -39,7 +39,6 @@ python manage.py test
 ```
 
 ## Requirements
-The following is a list of what I wanted from a packaging solution.
 
 * [x] Not include tests in package that gets installed by users
 * [x] Test against multiple versions of Django - tox
