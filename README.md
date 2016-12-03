@@ -18,6 +18,13 @@ To run a subset of the tests in a specific environment, e.g.
 tox -e py27-django18 tests.test_models
 ```
 
+For coverage,
+```
+tox -e clean
+detox
+tox -e coverage
+```
+
 ## Requirements
 The following is a list of what I wanted from a packaging solution.
 
