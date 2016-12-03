@@ -1,5 +1,5 @@
 set -e
 
-virtualenv build_env
-source build_env/bin/activate
+virtualenv buildenv
+source buildenv/bin/activate
 pip install -r build_requirements.txt

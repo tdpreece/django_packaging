@@ -1,7 +1,8 @@
 .coverage
 .coverage.*
+.idea
 .tox/
-build_env/
+buildenv/
 devenv/
 *.swp
 *.egg-info/

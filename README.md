@@ -6,7 +6,7 @@ to work out which I thought suited me best.
 Install build dependencies,
 ```
 ./setup_build
-. build_env/bin/activate
+. buildenv/bin/activate
 ```
 
 Run all tests for all environments,
