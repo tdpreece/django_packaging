@@ -3,6 +3,12 @@ I've seen a number of ways of structuring Django packages and wanted
 to work out which I thought suited me best.
 
 ## How to use this package
+Install build dependencies,
+```
+./setup_build
+. build_env/bin/activate
+```
+
 Run all tests for all environments,
 ```
 detox
@@ -46,8 +52,9 @@ don't Have to match the system ones
 * [x] Run tests for legacy versions of Django
 * [x] Coverage
 * [x] Dev environment for running tests quickly during development
-* [ ] A virtual environment that wraps tox so I don't have to rely on system
+* [x] A virtual environment that wraps tox so I don't have to rely on system
 version for tox, detox and setuptools.
+* [ ] wrapper script to make everything easier.
 
 ## Solution Summary
 * Use tox to manage creating virtualenvs that contain all possible

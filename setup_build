@@ -1,0 +1,9 @@
+set -e
+set -x
+
+virtualenv build_env
+source build_env/bin/activate
+pip install pip==9.0.1
+pip install setuptools==30.0.0
+pip install tox==2.3.2
+pip install detox==0.10.0
