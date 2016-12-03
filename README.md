@@ -5,7 +5,7 @@ to work out which I thought suited me best.
 ## How to use this package
 Install build dependencies,
 ```
-./setup_build
+./bootstrap
 . buildenv/bin/activate
 ```
 
