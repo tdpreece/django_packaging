@@ -54,7 +54,6 @@ don't Have to match the system ones
 * [x] Dev environment for running tests quickly during development
 * [x] A virtual environment that wraps tox so I don't have to rely on system
 version for tox, detox and setuptools.
-* [ ] wrapper script to make everything easier.
 
 ## Solution Summary
 * Use tox to manage creating virtualenvs that contain all possible
