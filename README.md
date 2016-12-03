@@ -65,7 +65,7 @@ easier to use because I don't need to manually exclude tests.
 [parallel](https://coverage.readthedocs.io/en/coverage-4.2/config.html#config-run)
 enabled and specify
 [paths](https://coverage.readthedocs.io/en/coverage-4.2/config.html#paths)
-that can be considered
+that can be considered equivalent
 so that coverage for runs for different environments can be combined.  Thus,
 I can have a statements like `if six.PY3:`  in my code and still achieve 100%
 coverage.  See .coveragerc file.
