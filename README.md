@@ -25,7 +25,6 @@ The following is a list of what I wanted from a packaging solution.
 * [x] Test against mulitple versions of Django - tox
 * [x] Test packaging (setup.py, MANIFEST ..) - tox
 * [x] Run tests that hit the database
-* [ ] Test views
 * [x] Test management commands
 * [x] Run tests for one environment at a time (e.g. Python 2.7 with Django 1.8)
 * [x] Be able to run one test at a time
@@ -35,12 +34,6 @@ don't Have to match the system ones
 * [ ] Dev environment for running tests quickly during development
 * [ ] A virtual environment that wraps tox so I don't have to rely on system
 version for tox, detox and setuptools.
-
-The first two points suggest that keeping the tests in
-the usual location for and app `app/test` would be mean
-running discovery in `src/my_package/test` but testing
-the installed code (installed into tox's virtualenv).
-This isn't very intuitive for anyone else using the code.
 
 ## Gotchas
 * Took me a couple of runs to realise that I had django>=1.8,<1.10 in setup.py
