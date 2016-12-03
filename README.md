@@ -47,7 +47,6 @@ python manage.py test
 * [x] Test management commands
 * [x] Run tests for one environment at a time (e.g. Python 2.7 with Django 1.8)
 * [x] Be able to run one test at a time
-don't Have to match the system ones
 * [x] Run tests for legacy versions of Django
 * [x] Coverage
 * [x] Dev environment for running tests quickly during development
