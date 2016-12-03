@@ -1,0 +1,4 @@
+pip==9.0.1
+setuptools==30.0.0
+tox==2.3.2
+detox==0.10.0
