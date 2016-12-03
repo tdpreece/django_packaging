@@ -1,0 +1,11 @@
+[run]
+branch = True
+parallel = True
+source =
+    django_package_example
+    tests
+
+[paths]
+source =
+    .tox/py27-django15/lib/python2.7/site-packages/
+    .tox/*/site-packages/
